@@ -1,0 +1,1 @@
+// Package metadata script placeholder
