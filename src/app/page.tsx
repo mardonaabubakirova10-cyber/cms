@@ -15,9 +15,9 @@ export default function Home() {
       </p>
       <Link
         href="/editor/demo"
-        className="inline-flex items-center gap-2 px-6 py-3 rounded-lg font-medium bg-indigo-600 hover:bg-indigo-500 text-white transition-colors shadow-lg shadow-indigo-500/25"
+        className="inline-flex items-center gap-2 px-6 py-3.5 rounded-xl font-semibold bg-indigo-600 hover:bg-indigo-500 text-white transition-all duration-200 shadow-lg shadow-indigo-500/30 hover:scale-[1.02] active:scale-[0.98]"
       >
-        Open Demo Editor <ArrowRight className="w-4 h-4" />
+        Открыть конструктор <ArrowRight className="w-5 h-5" />
       </Link>
     </main>
   );
